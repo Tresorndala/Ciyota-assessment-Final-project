@@ -37,7 +37,7 @@
                         Log In
                     </button>
                 </a>
-                <a href="signup/register.php">
+                <a href="Signup/register.php">
                     <button class="w-48 h-12 bg-green-800 text-white font-semibold rounded-lg hover:bg-green-900 transition duration-300">
                         Sign Up
                     </button>
