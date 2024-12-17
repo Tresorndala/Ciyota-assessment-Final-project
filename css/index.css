@@ -1,0 +1,22 @@
+/* index.css */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Optional: Custom style for logo or text effects */
+.sch img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.sch img:hover {
+    transform: scale(1.1);
+}
+
+/* Optional: Add more custom styles as needed */
+
+
+
+
+
+
+

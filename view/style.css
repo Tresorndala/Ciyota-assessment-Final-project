@@ -1,0 +1,120 @@
+body {
+  background: #eee;
+  padding-top: 56px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    /* Overlay color */
+    url('logo.png') no-repeat center center fixed;
+  
+  background-size: 700px, 700px;
+  background-position: top;
+  background-position-x: 450px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+
+
+
+#side_nav {
+  background: white;
+  min-width: 250px;
+  max-width: 250px;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+
+}
+
+.navbar {
+  margin-left: 250px;
+
+}
+
+
+
+
+hr.h-color {
+  background: #080808;
+  ;
+}
+
+.sidebar li.active {
+  background: #b40c90;
+  border-radius: 8px;
+}
+
+.sidebar li.active a,
+.sidebar li.active a:hover {
+  color: white;
+}
+
+.sidebar li a,
+li {
+  color: black;
+  font-size: medium;
+}
+
+@media(max-width: 767px) {
+  #side_nav {
+    margin-left: -250px;
+    position: fixed;
+    min-height: 100vh;
+    z-index: 1;
+  }
+
+  #side_nav.active {
+    margin-left: 0;
+  }
+}
+
+
+
+
+.second-navbar {
+  position: fixed;
+  width: calc(100% - 250px);
+  /* Adjusted width with a gap of 20px */
+  top: 70px;
+  /* Adjust according to the height of the first navbar */
+  z-index: 1000;
+  /* Ensure it's above other content */
+  background-color: #f8f9fa;
+  /* Set your desired background color */
+  border-bottom: 1px solid #dee2e6;
+  /* Add a border for separation */
+
+  margin-right: 10px;
+  /* Horizontal gap */
+}
+
+
+.register {
+  margin-top: 10px !important;
+  margin-left: 50px;
+  margin-right: 0px;
+
+  float: right;
+
+}
+
+#previewForm {
+  width: 100%;
+  border: rgb(19, 140, 177) transparent 1px;
+  background: white;
+
+}
+
+.preview {
+  float: right;
+
+
+}
+
+.container {
+  border-radius: 10px !important;
+}
+
+
+
